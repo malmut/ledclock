@@ -3,7 +3,7 @@
 
 # LEDClock
 
-ESP operated wall clock built from a classical SMD5050 RGB-LED ring with the following features:
+## ESP operated wall clock built from a classical SMD5050 RGB-LED ring with the following features:
 
   - a high precision real-time clock
   - exchangeable clock faces: 
@@ -17,18 +17,20 @@ ESP operated wall clock built from a classical SMD5050 RGB-LED ring with the fol
   - brightness control through measurement of ambient light 
   - power saving with passive Infrared-Module and Person Detection
 
-  and a comfortable Android-App to control the clock.
+  *and a comfortable Android-App to control the clock.
 
 
-Hardware:
-ESP8266 module (e.g. NodeMCU or WeMos D1 mini)
-WS 2812(b ) SMD5050 LED ring
-RTC DS 3231 or similar
-PIR module like HC-sr501
-LDR
-3A power adaptor
+**Hardware:
 
-Software:
-Arduino IDE with Extension for ESP8266 boards
+- ESP8266 module (e.g. NodeMCU or WeMos D1 mini)
+- WS 2812(b ) SMD5050 LED ring
+- RTC DS 3231 or similar
+- PIR module like HC-sr501
+- LDR
+- 3A power adaptor
+  
+**Software:
 
-# Good luck, have fun!
+- Arduino IDE with Extension for ESP8266 boards
+
+#### Good luck, have fun!
