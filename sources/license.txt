@@ -1,0 +1,16 @@
+    LEDClock with WS8212 60 LED Ring
+
+    MAWISoft 2017
+
+    Thanks to Daniel Garcia for FastLED
+    and to Fabrice Weinberg for his 'NTPClient'
+    and the whole team of arduino.cc
+    and some inspiration by wol clock from Jon Fuge.
+
+    This Program ist published under the terms of the GNU Lesser General Public License as
+    published by the Free Software Foundation, either version 3 of
+    the License, or (at your option) any later version.
+    It is distrubited in the hope that it will be useful,
+    but without any warranty,
+    see <http://www.gnu.org/licenses/>.
+    
