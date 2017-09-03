@@ -1,7 +1,7 @@
 
 # LEDClock
 
-## ESP operated wall clock built from a classical SMD5050 RGB-LED ring with the following features:
+## ESP 8266 operated wall clock built from a classical SMD5050 RGB-LED ring with the following features:
 
   - a high precision real-time clock
   - exchangeable clock faces: 
