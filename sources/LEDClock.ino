@@ -197,13 +197,16 @@ void loop() {
         colorWipe(rgbDivisions, 3);                        // give the user some feedback
         blackWipe(3);
 
-        client.write("OK\n");
-        client.stop();                                     // close client and leave while loop
-#ifdef DEBUG
-        Serial.printf("Client closed. Mode: %i Scheme: %i\n", (int)mode, (int)scheme);
-#endif
+
       }
     }
+      
+    client.write("OK\n");
+    client.stop();                                     // close client and leave while loop
+#ifdef DEBUG
+    Serial.printf("Client closed. Mode: %i Scheme: %i\n", (int)mode, (int)scheme);
+#endif
+  
   }
 
 
